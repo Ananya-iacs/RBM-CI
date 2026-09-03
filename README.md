@@ -104,16 +104,17 @@ The main files are
 ---
 
 ## References
-Link to your paper(s), with a paraphrased one-line description of what it covers (avoid quoting abstracts directly — just describe it in your own words).
+Active Learning Assisted MCCI to Target Spin States https://pubs.acs.org/doi/10.1021/acs.jctc.2c00935
+
 
 ---
 
 ## Contributors
-- Your name
-- Any collaborators
+- Pritam Bhattacharyya
+- Ananya Sinha
+- Debashree Ghosh
 
-## Author Info
-- Contact info / lab website / social links
+
 
 ---
 
