@@ -19,9 +19,11 @@ RBM-CI is a protocol to generate important configurations for strongly correlate
 ---
 
 ## Description
-Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved by randomely searching over the Hilbert space. Though MCCI helps to study the electronic structure of a system, which was otherwise impossible to do, it suffers from slow convergence due to its stochastic nature. We devised a protocol called RBM-CI, where direct generation of important configuration by generative ML model, restricted Boltzmann machine (RBM) makes the convergence manyfold faster and can also optimize Hilbert space for a particular target state.
+Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved by randomely searching over the Hilbert space. Though MCCI helps to study the electronic structure of a system, which was otherwise impossible to do, it suffers from slow convergence due to its stochastic nature. We devised a protocol called RBM-CI, where direct generation of important configuration by generative ML model, restricted Boltzmann machine (RBM) makes the convergence manyfold faster and can also optimize Hilbert space for a particular target state. 
 
 Initially, MCCI steps update the sub-Hilbert space and build the training data set. RBM model learns from the MCCI data distribution and, using that information predicts the relative importance of unlabelled configurations. The preliminary information about the configurations helps build a better Hilbert space, leading to faster convergence.
+
+
 ---
 
 ## How To Use
