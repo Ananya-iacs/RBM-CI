@@ -29,7 +29,12 @@ Initially, MCCI steps update the sub-Hilbert space and build the training data s
 ## How To Use
 
 ### Prerequisites
-- List required software, libraries, versions (e.g., Python 3.x, specific packages, CUDA if needed)
+1. CUDA Device
+2. CUDA Toolkit
+3. Python3.6 +
+4. PyTorch
+5. Numba
+6. f2py3
 
 ### Installation
 ```bash
