@@ -38,8 +38,11 @@ Initially, MCCI steps update the sub-Hilbert space and build the training data s
 
 ### Installation
 ```bash
+After geting the code the net_nstates.f file, which is a Fortran code, need to converted into a Python excutable file. f2py3 a Fortran to Python interface generator used at this point.
 # Any build steps, compilation commands, etc.
-pip install -r requirements.txt
+    f2py3 -L/usr/lib. -llapack -c net_nstates.f -m net_states
+This command generate a file - net_nstates.cpython-xxxxxx-gnu.so. Rename this file to net_nstates.so.
+    mv  net_nstates.cpython-xxxxxx-gnu.so  net_states.so
 ```
 
 ### Setup of Input File
