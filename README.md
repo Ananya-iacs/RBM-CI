@@ -81,8 +81,11 @@ In the input file, argumanent are given in "P,Q,R" format, where P is the keywor
 
 
 ### Performing a Calculation
+
+Once the input file is constructed and all the files put into the same directory, the user can perform the RBM-CI calculation by using the below command-
+
 ```bash
-python your_script.py input_file.in &
+python exe.py input_file.in &
 ```
 
 ---
