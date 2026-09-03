@@ -94,12 +94,12 @@ python exe.py input_file.in &
 There is a total 10 output files generated after successful calculations-
 The main files are
 
-  1) input_file.in.out            # Main output file, which contains information on subspace size, energy, and spin value with each iteration. 
-  2) input_file.in.out.basis      # Configurations of final sub-Hilbert space
-  3) input_file.in.out.ci         # CI coeffcienet corrosponding to configurations
-  4) input_file.in.out.model.pth  # Final optimized ANN model
-  5) input_file.in.out.error.dat  # Train and test error at each AL iteration
-  6) input_file.in.out.TrainData_subSpace.csv # Train data set generated during calculation
+    1) input_file.in.out            # Main output file, which contains information on subspace size, energy, and spin value with each iteration. 
+    2) input_file.in.out.basis      # Configurations of final sub-Hilbert space
+    3) input_file.in.out.ci         # CI coeffcienet corrosponding to configurations
+    4) input_file.in.out.model.pth  # Final optimized ANN model
+    5) input_file.in.out.error.dat  # Train and test error at each AL iteration
+    6) input_file.in.out.TrainData_subSpace.csv # Train data set generated during calculation
 
 ---
 
