@@ -50,7 +50,7 @@ This command generate a file - net_nstates.cpython-xxxxxx-gnu.so. Rename this fi
 ### Setup of Input File
 In the input file, argumanent are given in "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
 
-***startSetup***
+     ***startSetup***
 model,HB
 nSite,18
 subSpace,15200
