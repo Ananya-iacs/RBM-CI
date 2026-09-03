@@ -51,33 +51,33 @@ This command generate a file - net_nstates.cpython-xxxxxx-gnu.so. Rename this fi
 In the input file, argumanent are given in "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
 
      ***startSetup***
-model,HB
-nSite,18
-subSpace,15200
-mlStart,5
-ciPow,1
-trainSampleSize,100000
-testSampleSize,50000
-newGenerationSize,100000
-gibStepTrain,10
-gibStepGen,80
-ciThresh,1e-5
-hidNode,2
-trainBatchSize,1000
-lr,0.01
-epoch,200
-nStates,10
-Ms,1,0
-s2Target,0
-maxItr,50
-startSpinTargetItr,5
-energyTola,0.0001
-spinTola,0.01
-jValue,1
-beta,38.61
-bondOrder,bondorder.dat
-restart,False
-***endSetup***
+        model,HB
+        nSite,18
+        subSpace,15200
+        mlStart,5
+        ciPow,1
+        trainSampleSize,100000
+        testSampleSize,50000
+        newGenerationSize,100000
+        gibStepTrain,10
+        gibStepGen,80
+        ciThresh,1e-5
+        hidNode,2
+        trainBatchSize,1000
+        lr,0.01
+        epoch,200
+        nStates,10
+        Ms,1,0
+        s2Target,0
+        maxItr,50
+        startSpinTargetItr,5
+        energyTola,0.0001
+        spinTola,0.01
+        jValue,1
+        beta,38.61
+        bondOrder,bondorder.dat
+        restart,False
+    ***endSetup***
 
 
 ### Performing a Calculation
