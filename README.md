@@ -107,8 +107,6 @@ The main output files are as follows
 ---
 # Connection file
 At first the the user needs to assign number at each site as shown in https://github.com/koushik-bug/AL-MCCI 
-## References
-Active Learning Assisted MCCI to Target Spin States https://pubs.acs.org/doi/10.1021/acs.jctc.2c00935
 
 
 ---
@@ -120,7 +118,3 @@ Active Learning Assisted MCCI to Target Spin States https://pubs.acs.org/doi/10.
 
 
 
----
-
-## License
-Pick a license (MIT is common and permissive) — GitHub can auto-generate this when creating the repo, or you can add a `LICENSE` file separately.
