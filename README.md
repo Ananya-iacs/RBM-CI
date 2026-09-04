@@ -105,7 +105,7 @@ The main output files are as follows
     
 
 ---
-# Connection file
+### Connection file
 At first the the user needs to assign number at each site as shown in https://github.com/koushik-bug/AL-MCCI 
 
 
