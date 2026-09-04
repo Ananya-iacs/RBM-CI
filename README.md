@@ -11,10 +11,7 @@ RBM-CI is a protocol to generate important configurations for strongly correlate
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [Output Files](#output-files)
-- [References](#references)
 - [Contributors](#contributors)
-- [Author Info](#author-info)
-- [License](#license)
 
 ---
 
