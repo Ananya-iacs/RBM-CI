@@ -48,7 +48,7 @@ This command generate a file - net_nstates.cpython-xxxxxx-gnu.so. Rename this fi
 
 
 ### Setup of Input File
-In the input file, argumanent are given in "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
+In the input file, arguments are given in "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
 
      ***startSetup***
         model,HB
@@ -96,10 +96,14 @@ The main files are
 
     1) input_file.in.out            # Main output file, which contains information on subspace size, energy, and spin value with each iteration. 
     2) input_file.in.out.basis      # Configurations of final sub-Hilbert space
-    3) input_file.in.out.ci         # CI coeffcienet corrosponding to configurations
-    4) input_file.in.out.model.pth  # Final optimized ANN model
-    5) input_file.in.out.error.dat  # Train and test error at each AL iteration
-    6) input_file.in.out.TrainData_subSpace.csv # Train data set generated during calculation
+    3) input_file.in.out.ci         # CI coefficienet corresponding to configurations
+    4) input_file.in.out.model.pth  # Final optimized RBM model
+    5) input_file.in.out.losses_{iteration number}.dat  # Train and test free energy and KL-divergence at each RBM-CI iteration
+    6) input_file.in.out.TrainData_subSpace_sample_{iteration number}.csv # Train data set generated during each iteration
+    7) input_file.in.out.TestData_subSpace_sample_{iteration number}.csv # Test data set generated during each iteration
+    8) input_file.in.out.generated_{iteration number}.dat  #RBM generated total configurations at each iteration
+    9) input_file.in.out.generated_unique_{iteration number}.dat #RBM generated unique configurations at each iteration
+    
 
 ---
 
