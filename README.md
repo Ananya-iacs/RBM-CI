@@ -3,7 +3,7 @@
 
 ![Project Image](project-image-url)
 
-RBM-CI is a protocol to generate important configurations for strongly correlated systems for targeting different spin states to calculate singlet-triplet gap for such systems with multireference character.
+RBM-CI is a protocol to generate important configurations for strongly correlated systems. This protocol is used for targeting different spin states to calculate singlet-triplet gap for such systems with multireference character.
 
 ---
 
