@@ -16,9 +16,11 @@ RBM-CI is a protocol to generate important configurations for strongly correlate
 ---
 
 ## Description
-Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved by randomely searching over the Hilbert space. Though MCCI helps to study the electronic structure of a system, which was otherwise impossible to do, it suffers from slow convergence due to its stochastic nature. We devised a protocol called RBM-CI, where direct generation of important configuration by generative ML model, restricted Boltzmann machine (RBM) makes the convergence manyfold faster and can also optimize Hilbert space for a particular target state. 
 
-Initially, MCCI steps update the sub-Hilbert space and build the training data set. RBM model learns from the MCCI data distribution and, using that information predicts the relative importance of unlabelled configurations. The preliminary information about the configurations helps build a better Hilbert space, leading to faster convergence.
+Monte Carlo (MC) methods employ stochastic sampling to solve otherwise intractable problems. In Monte Carlo Configuration Interaction (MCCI), the electronic structure is obtained by randomly sampling the Hilbert space to identify important configurations. While MCCI provides access to electronic structures beyond the reach of conventional approaches, its stochastic sampling can result in slow convergence. Here, we introduce RBM-CI, a generative machine-learning-assisted MCCI protocol that uses a restricted Boltzmann machine (RBM) to directly predict and generate important configurations. By replacing purely random exploration with ML-guided sampling, RBM-CI accelerates convergence and efficiently constructs a compact, target-state-specific Hilbert space.
+
+In RBM-CI, initial MCCI iterations generate the training data from which the RBM learns the configuration distribution. The trained RBM then predicts the relative importance of previously unexplored configurations and preferentially generates important configurations into subsequent iterations. This RBM-guided generation substantially reduces the stochastic search of the Hilbert space, enabling faster convergence.
+
 
 
 ---
