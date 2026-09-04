@@ -91,8 +91,7 @@ python exe.py input_file.in &
 ---
 
 ## Output Files
-There is a total 10 output files generated after successful calculations-
-The main files are
+The main output files are as follows
 
     1) input_file.in.out            # Main output file, which contains information on subspace size, energy, and spin value with each iteration. 
     2) input_file.in.out.basis      # Configurations of final sub-Hilbert space
@@ -106,7 +105,8 @@ The main files are
     
 
 ---
-
+# Connection file
+At first the the user needs to assign number at each site as shown in https://github.com/koushik-bug/AL-MCCI 
 ## References
 Active Learning Assisted MCCI to Target Spin States https://pubs.acs.org/doi/10.1021/acs.jctc.2c00935
 
