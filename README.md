@@ -79,7 +79,7 @@ This command generate a file - net_nstates.cpython-xxxxxx-gnu.so. Rename this fi
     ***endSetup***
 
 ### Connection file
-At first the the user needs to assign number at each site as shown in https://github.com/koushik-bug/AL-MCCI 
+At first the the user needs to assign number at each site as shown in https://github.com/dghoshlab/AL-MCCI 
 
 
 ---
